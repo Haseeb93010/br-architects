@@ -1,0 +1,10 @@
+.navbar{
+    background: linear-gradient(45deg,#043935,#043330) !important;
+}
+.hero-section{
+    min-height: 70vh;
+    background: url('/assets/images/architect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
