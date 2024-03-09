@@ -2,11 +2,12 @@
     background: linear-gradient(45deg,#043935,#043330) !important;
 }
 .hero-section{
-    min-height: 70vh;
-    background: url('/assets/images/architect.jpg');
+    height: 100vh;
+    background: linear-gradient(45deg,rgba(79, 116, 114,0.25),rgba(54, 97, 93,0.94)),url('/assets/images/architect.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .br-text{
     background-color: rgba(0, 0,0, 0.700);
