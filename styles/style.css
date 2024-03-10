@@ -2,7 +2,7 @@
     background: linear-gradient(45deg,#043935,#043330) !important;
 }
 .hero-section{
-    height: 100vh;
+    min-height: 80vh;
     background: linear-gradient(45deg,rgba(79, 116, 114,0.25),rgba(54, 97, 93,0.94)),url('/assets/images/architect.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,4 +35,7 @@
 }
 #span-bg span{
     background: #1d4d49;
+}
+.card-btn a{
+    background-color: #1d4d49;
 }
