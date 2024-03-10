@@ -1,5 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg,#36615d,#043330); 
+  }
 .navbar{
-    background: linear-gradient(45deg,#043935,#043330) !important;
+    background: linear-gradient(45deg,#36615d,#043330) !important;
 }
 .hero-section{
     min-height: 80vh;
@@ -38,4 +54,38 @@
 }
 .card-btn a{
     background-color: #1d4d49;
+}
+.bg-black{
+    background-color: #1d4d49 !important;
+}
+.zoom-effect{
+    filter: grayscale(0.75);
+    -webkit-filter: grayscale(0.75);
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+@media screen and (min-width:768px) {
+    .zoom-effect:hover{
+        transform: scale(1.10);
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        box-shadow: rgba(0, 0,0, 0.100) 0 0 10px 5px;
+    }
+}
+@media screen and (max-width:768px) {
+    .zoom-effect{  
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+}
+footer{
+    background: linear-gradient(45deg,#36615d,#043330);
 }
